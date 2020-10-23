@@ -9,7 +9,7 @@ public class HomeController
     @GetMapping("/")
     public String index()
     {
-        //html redirect
+        // redirect answer to HTML page
         return "home/index";
     }
 }
